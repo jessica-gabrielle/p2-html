@@ -5,10 +5,14 @@
 a:hover{
   color: orange;
 }
+.div{
+  margin-top: 15px;
+}
 .contain{
   position: absolute;
-    box-sizing: border-box;
+  box-sizing: border-box;
   max-width: 1349px;
+  height: 100%;
   float: left;
 }
 .banner{
@@ -23,7 +27,7 @@ a:hover{
   margin: -13px 0px 0px -8px;
 }
 .banner img{
-  padding: 35px 0px 0px 15px;
+  margin: 35px 0px 0px 15px;
 }
 .menu{
   position: relative;
@@ -80,8 +84,13 @@ a:hover{
   height: 400px;
   width: 400px;
 }
-
 #about{
+  position: relative;
+  float: left;
+  padding: 40px;
+  background-color: white;
+}
+.sobre{
   position: relative;
   margin: 0px 0px 0px 90px;
   float: left;
@@ -90,8 +99,16 @@ a:hover{
   text-align: left;
   font-size: 20px;
 }
+.aboutimg{
+  position: relative;
+  margin: -500px 0px 0px 450px;
+  float: left;
+  box-sizing: border-box;
+}
 #about button{
   position: relative;
+  float: left;
+  margin-left: 150px;
   width: 175px;
   height: 50px;
   border-radius: 25px;
@@ -99,11 +116,12 @@ a:hover{
   color: white;
   font-size: 18px;
 }
-#about img{
+#testimonials{
   position: relative;
-  margin: -500px 0px 0px 450px;
   float: left;
-  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
 }
 #depoimentos{
   position: relative;
@@ -127,10 +145,10 @@ a:hover{
 }
 .dep2{
   position: relative;
-  margin: -750px 0px 40px 700px;
+  margin: -750px 50px 40px 0px;
   width: 500px;
   box-sizing: border-box;
-  float: left;
+  float: right;
 }
 #depoimentos button{
   position: relative;
@@ -146,11 +164,10 @@ a:hover{
 #rol{
   position: relative;
   border: 0px solid black;
+  width:100%;
   height: 300px;
-  width:1349px;
   box-sizing: border-box;
-  margin-left: -13px;
-  margin: -5px 0px 0px 0px;
+  margin: -5px 0px 0px -8px;
   float: left;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -161,6 +178,13 @@ a:hover{
   margin-left: -10px;
   display: inline-block;
 }
+#ourcourses{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin-top: 500px;
+}
 #cursos{
   margin: 0px 0px 0px 45px;
   position: relative;
@@ -168,7 +192,7 @@ a:hover{
   color: #333;
   box-sizing: border-box;
   font-size: 20px;
-  height: 850px;
+  height: 100%;
 }
 .courses{
   position: relative;
@@ -178,15 +202,20 @@ a:hover{
   float: left;
 }
 .courses img{
-  padding: 0px 15px 15px 15px;
+  margin: 0px 15px 15px 15px;
   float: left;
+}
+#oblog{
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 100%;
+  padding-top: 200px;
 }
 #blog{
   position: relative;
   margin: 0px 0px 0px -8px;
   box-sizing: border-box;
-  height: 800px;
-  width: 1349px;
   float: left;
 }
 #blog img{
@@ -204,32 +233,37 @@ a:hover{
 }
 .blog1{
   position: relative;
-  margin: 0px 10px 0px 60px;
+  margin: 0px 10px 80px 60px;
   float: left;
   box-sizing: border-box;
   width: 350px;
 }
+#bott{
+  position: relative;
+  float: left;
+  background-color: #333;
+  border-top: 1px solid orange;
+  margin: 415px 0px 0px -8px;
+  width: 100%;
+  height: 100%;
+  padding-top: 415px;
+}
 #bot{
   position: relative;
   float: left;
-  margin: 0px 0px 0px -8px;
-  height: 800px;
-  width: 1349px;
+  margin: -400px 0px 0px 150px;
   box-sizing: border-box;
-  background-color: #333;
-  border: 1px solid orange;
-  bottom:0px;
   text-align: center;
 }
 #img img{
   position: relative;
   box-sizing: border-box;
   float: left;
-  margin: -7px 0px 0px 450px;
+  margin: -20px 0px 0px 350px;
 }
 .menu2{
   position: relative;
-  margin: -550px 50px 50px 50px;
+  margin: 0px 50px 50px 50px;
   display: inline-block;
   box-sizing: border-box;
   text-align: center;
@@ -237,29 +271,36 @@ a:hover{
   left: 0px;
   font-size: 20px;
 }
+#email{
+  position: relative;
+  float: left;
+  margin-top: -350px;
+  margin-left: 250px;
+
+}
 #email input{
   position: relative;
-  display: inline-block;
+  float: left;
   border: 1px solid orange;
   border-radius: 30px;
   width: 700px;
   box-sizing: border-box;
   height: 61px;
   color: white;
-  margin: 0px 0px 0px 50px;
   background-color: #00000094;
   padding: 0px 0px 0px 30px;
   font-size: 20px;
 }
 #email button{
   position: relative;
+  float: left;
   color: #FFFFFF;
   border-radius: 50px;
   background: #ff880f;
   height: 62px;
   width: 62px;
   border: none;
-  margin: 0px 0px 0px -65px;
+  margin: 0px 0px 0px -60px;
 }
 a{
   text-decoration: none;
