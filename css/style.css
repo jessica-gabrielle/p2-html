@@ -11,9 +11,11 @@ a:hover{
 .contain{
   position: absolute;
   box-sizing: border-box;
-  max-width: 1349px;
+  width: 1340px;
   height: 100%;
   float: left;
+  left: 0px;
+  top: -8px;
 }
 .banner{
   position: relative;
@@ -22,31 +24,28 @@ a:hover{
   font-size: 32px;
   border: 0px solid white;
   float: left;
-  height: 90px;
-  max-width: 1349px;
-  margin: -13px 0px 0px -8px;
+  width: 100%;
 }
 .banner img{
-  margin: 35px 0px 0px 15px;
+  margin: 5px 0px 0px 35px;
 }
 .menu{
   position: relative;
-  margin: -30px 10px 10px 30px;
+  margin: 0px 5px 10px 40px;
   box-sizing: border-box;
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
 }
 .menu input{
   position: relative;
   border: 1px solid orange;
-  display: inline-block;
+  float: left;
   height: 45px;
   width: 200px;
   background-color: #333;
   font-size: 20px;
   padding: 10px 0px 0px 20px;
   border-radius: 50px;
-  margin-left: 5px;
 }
 .top{
   position: relative;
@@ -55,10 +54,9 @@ a:hover{
   color: white;
   text-align: center;
 }
-.top img{
+.topimg{
   position: relative;
   float: left;
-  margin: 0px 0px 0px -8px;
 }
 .top p{
   position: relative;
@@ -71,7 +69,7 @@ a:hover{
   position: relative;
   float: left;
   box-sizing: border-box;
-  margin: -250px 70px 0px 70px;
+  margin: -300px 100px 0px 100px;
 }
 .services{
   position: relative;
@@ -80,6 +78,7 @@ a:hover{
   float: left;
   color: white;
   font-size: 24px;
+  margin-top: 45px;
   padding: 40px 10px 0px 25px;
   height: 400px;
   width: 400px;
@@ -103,12 +102,13 @@ a:hover{
   position: relative;
   margin: -500px 0px 0px 450px;
   float: left;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
 }
-#about button{
+.sobre button{
   position: relative;
-  float: left;
-  margin-left: 150px;
+  display: inline-block;
   width: 175px;
   height: 50px;
   border-radius: 25px;
@@ -121,14 +121,14 @@ a:hover{
   float: left;
   width: 100%;
   height: 100%;
-  padding-top: 40px;
+  left: -8px;
+  margin-top: 40px;
 }
 #depoimentos{
   position: relative;
   float: left;
   box-sizing: border-box;
-  font-size: 20px;
-  left: -8px;
+  margin-top: -780px;
 }
 .dep1 img, .dep2 img{
   position: relative;
@@ -138,17 +138,19 @@ a:hover{
 }
 .dep1{
   position: relative;
-  margin: -750px 0px 40px 100px;
-  width: 500px;
+  margin: 50px 0px 0px 100px;
+  width: 450px;
+  font-size: 16px;
   box-sizing: border-box;
   float: left;
 }
 .dep2{
   position: relative;
-  margin: -750px 50px 40px 0px;
-  width: 500px;
+  margin: 50px 50px 50px 100px;
+  width: 450px;
+  font-size: 16px;
   box-sizing: border-box;
-  float: right;
+  float: left;
 }
 #depoimentos button{
   position: relative;
@@ -159,7 +161,7 @@ a:hover{
   color: white;
   font-size: 18px;
   float: left;
-  margin:-100px 0px 0px 450px;
+  margin: 50px 0px 20px 60px;
 }
 #rol{
   position: relative;
@@ -167,7 +169,7 @@ a:hover{
   width:100%;
   height: 300px;
   box-sizing: border-box;
-  margin: -5px 0px 0px -8px;
+  margin: -10px 0px 0px -8px;
   float: left;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -183,7 +185,7 @@ a:hover{
   float: left;
   width: 100%;
   height: 100%;
-  margin-top: 500px;
+  margin-top: 0px;
 }
 #cursos{
   margin: 0px 0px 0px 45px;
@@ -191,13 +193,13 @@ a:hover{
   float: left;
   color: #333;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 16px;
   height: 100%;
 }
 .courses{
   position: relative;
   margin: 50px 10px 0px 50px;
-  width: 350px;
+  width: 300px;
   box-sizing: border-box;
   float: left;
 }
@@ -210,30 +212,33 @@ a:hover{
   float: left;
   height: 100%;
   width: 100%;
-  padding-top: 200px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left: -8px;
 }
 #blog{
   position: relative;
-  margin: 0px 0px 0px -8px;
-  box-sizing: border-box;
+  width: 100%;
+  height: 100%
   float: left;
 }
 #blog img{
   position: relative;
   float: left;
-  margin: 0px 0px 0px -15px;
   margin: auto;
 
 }
 #theblog{
   position: relative;
   box-sizing: border-box;
-  margin: -800px 0px 0px 15px;
+  width: 100%;
+  height: 100%;
+  margin: -800px 0px 0px 0px;
   float: left;
 }
 .blog1{
   position: relative;
-  margin: 0px 10px 80px 60px;
+  margin: 0px 50px 80px 50px;
   float: left;
   box-sizing: border-box;
   width: 350px;
@@ -243,39 +248,40 @@ a:hover{
   float: left;
   background-color: #333;
   border-top: 1px solid orange;
-  margin: 415px 0px 0px -8px;
+  margin: -5px 0px 0px -8px;
   width: 100%;
   height: 100%;
-  padding-top: 415px;
+  padding-top: 15px;
 }
 #bot{
   position: relative;
   float: left;
-  margin: -400px 0px 0px 150px;
+  margin: 0px 0px 0px 250px;
   box-sizing: border-box;
   text-align: center;
-}
-#img img{
-  position: relative;
-  box-sizing: border-box;
-  float: left;
-  margin: -20px 0px 0px 350px;
+  width: 100%;
+  height: 100%;
 }
 .menu2{
   position: relative;
-  margin: 0px 50px 50px 50px;
+  margin: 0px 30px 50px 30px;
   display: inline-block;
   box-sizing: border-box;
   text-align: center;
   color: white;
   left: 0px;
-  font-size: 20px;
+  font-size: 16px;
+}
+#img img{
+  position: relative;
+  box-sizing: border-box;
+  float: left;
 }
 #email{
   position: relative;
   float: left;
-  margin-top: -350px;
-  margin-left: 250px;
+  margin-top: -400px;
+  margin-left: 100px;
 
 }
 #email input{
@@ -289,7 +295,7 @@ a:hover{
   color: white;
   background-color: #00000094;
   padding: 0px 0px 0px 30px;
-  font-size: 20px;
+  font-size: 16px;
 }
 #email button{
   position: relative;
